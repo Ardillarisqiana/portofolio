@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiga</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .main{
+            width: 100%;
+            height: 100vh;
+            background-color: #333;
+            padding: 0 11%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: sans-serif;
+        }
+        .img img{
+            width: 450px;
+            padding: 0 20%;
+        }
+        .text h1{
+            font-size: 58px;
+            color: white;
+            position: relative;
+        }
+        .text h1::after{
+            position: absolute;
+            content: "";
+            width: 25%;
+            height: 4px;
+            background-color: white;
+            left: 0;
+            bottom: 2px;
+        }
+        .text p{
+            font-size: 15px;
+            color: white;
+            line-height: 28px;
+            margin: 30px 0 45px 0;
+            max-width: 480;
+        }
+        .btn{
+            padding: 7px;
+            border: 2px solid wheat;
+            border-radius: 5px;
+            color: dimgrey;
+            text-decoration: none;
+            margin-right: 15px;
+            transition: all .5s ease;
+        }
+        .btn:hover{
+            background-color: wheat;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img">
+            <img src="phot.jpg" alt="" srcset="">
+        </div>
+        <div class="text">
+            <h1>Projek 3</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quas sequi architecto explicabo, iusto ipsam hic nesciunt perspiciatis iste, voluptatibus ab, laudantium nisi deleniti deserunt tenetur totam ipsum quibusdam reprehenderit dolor accusamus doloremque temporibus eius? Ducimus alias quidem quia dolorem mollitia nostrum similique quibusdam. Eveniet corporis quae labore, aperiam facilis, odit atque nemo nulla voluptates cumque alias numquam repellat corrupti ratione laudantium natus officiis sed ipsum tenetur, ipsam dolore? Vel omnis nam nihil laborum. Voluptate ex aliquid assumenda eligendi officia, facere illo adipisci. Repudiandae dolorem sint facere, voluptatum beatae autem, itaque ullam dignissimos voluptatem id pariatur magni adipisci culpa commodi unde fugiat! Quasi exercitationem doloribus ipsum ipsam incidunt! Et ad tenetur ex itaque similique mollitia ipsum inventore aliquid nisi.</p>
+            <div class="button">
+                <a href="index.html" class="btn">Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
